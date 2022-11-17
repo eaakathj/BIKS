@@ -1,0 +1,432 @@
+ /* Stjernen gør nedstående gældende på hele siden*/
+ * {font-family: abadi-condensed,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+    height: auto;
+    width: 100%;
+ } 
+ 
+/*----------------------------------------------------------------------------------------------------*/
+/*FORSIDEN*/
+
+ /*Styling af body*/
+ body{
+    margin: 0%;
+    padding:0%;
+  }
+
+
+ /*Styling af Mobile Container*/
+ .mobile-container {
+    max-width: 480px;
+    background-color: #c3e6f2e6;
+    color: #a52530;
+ }
+
+
+ /*styling af alle links*/
+ a {
+  color: #a52530;
+}
+
+/*Styling af logo*/
+ .logo {
+    width: 100px;
+    margin-right: 100px;
+ }
+
+ /*Styling af navigation*/ 
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#c3e6f2e6;
+    color: #a52530;
+    margin-bottom: 50px;
+}
+  .navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li{
+    list-style: none;
+  }
+  .navbar-links li a{
+    text-decoration: none;
+    color: #a52530;
+    padding: 1rem;
+    display: block;
+  }
+  .navbar-links li:hover{
+    background-color:#b0d7e4e6;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+  
+  /*Styling af Burger Bar (inspiration fra Murats undervisning)*/
+  .toggle-button{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    display: flex;
+  }
+  
+  .toggle-button .bar {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+
+ /*Styling af main-sektionen*/
+ .forside-tekst {
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: lighter;
+ }
+ .velkomst {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight:lighter;
+ }
+
+ .forside-billede {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 90%;
+}
+
+/*Styling af knap*/
+ .bottom {
+  background-color:rgb(134, 189, 202);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  margin-left: 30%;  
+}
+
+
+ 
+ h2 {
+ text-align: center;
+ margin-bottom: 10px;
+ font-size: 45px;
+ font-weight: lighter;
+ }
+
+ /* Styling af infographic */
+
+ .infographic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+ }
+
+ .desktopversion {
+  display: none;
+
+ }
+
+
+ /*styling af footer*/
+
+ footer {
+ background-color: #c3e6f2e6;
+}
+
+ .insta-tekst {
+flex: 50%;
+padding: 5px;
+color: white;
+font-size: 1.5em;
+
+ }
+
+ h6 {
+ margin-top: 40px;
+ margin-bottom: 10px;
+ font-size: 15px;
+
+ }
+
+ .insta-billeder {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+ }
+
+ .instabillede {
+  width: 25%;
+    
+
+ }
+
+ .abningstider {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom: -15px;
+    margin-top: -20px;
+
+ }
+
+ .lokation {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom: -15px;
+ }
+
+ .info {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom: -15px;
+
+ }
+
+
+ .logo-footer {  
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 15px;
+ }
+
+ .logo-footer1 {
+  width: 100px;
+ }
+
+
+ .copyright {
+    text-align: center;
+    color: white;
+    margin-bottom: -15px;
+ }
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*Styling af KERAMIK underside*/
+
+/*HUSK AT TILFØJE BURGER MENU BAR*/
+
+/*Styling af forsidebillede på keramik underside*/
+
+.forside-billede3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*Keramik side tekst*/
+.keramik-sektion {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.keramik-tekst {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight:lighter;
+  color: white;
+}
+
+
+  /*styling af bottom1*/
+  .bottom1 {
+    background-color:rgb(134, 189, 202);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    border-radius: 12px;
+    margin-bottom: 50px;
+  }
+
+
+/*Styling af keramik billeder*/
+.keramik-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  gap: 1.5rem;
+  margin: 0 auto;
+  }
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+ /*BREAKPOINT DESKTOP*/ 
+  @media (min-width:1200px) {
+
+/*Styling af "Mobile Container" til desktop version*/
+.mobile-container {
+  background-color: #c3e6f2e6;
+  color: #a52530;
+  max-width: 100%;
+}
+
+  /*Design af Navbar*/
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links {
+  display: block;
+}
+
+/*Styling af burgermenu  - gør at den ikke bliver vist på desktop*/
+.toggle-button {
+  display: none;
+}
+
+
+/*Styling af grid i main*/
+main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 90%;
+gap: 1.5rem;
+margin: 0 auto;
+}
+
+#article-forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  gap: 1.5rem;
+  margin: 0 auto;
+  }
+
+/*Styling af forside tekst*/
+.velkomst {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  margin-bottom: 80px;
+}
+
+
+/*styling af forside billeder*/
+.forside-billede {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+} 
+
+.forside-billede1 {
+  margin-bottom: 20px;
+}
+
+/*styling af bottom*/
+.bottom {
+  background-color:rgb(134, 189, 202);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  margin-left: 32%;  
+}
+
+/*Styling af infographics*/
+
+.mobilversion {
+  display: none;
+}
+
+.desktopversion {
+  display: flex;
+  width: 300%;
+  margin-left: -880px;
+  margin-top: -150px;
+}
+
+
+/*Styling af instagram billeder*/
+.insta-billeder {
+  width: 100%;
+}
+
+.instabillede {
+width: 25%;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*KERAMIK UNDERSIDE*/
+
+
+.keramik-sektion {
+  width: 50%;
+  float: left;
+  }
+
+  .keramik-grid{
+    float: left;
+    width: 50%;
+    }
+
+}
